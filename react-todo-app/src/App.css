@@ -1,0 +1,46 @@
+/* src/App.css */
+
+.app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .task-input {
+    margin: 20px 0;
+  }
+  
+  .task-input input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .task-input button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .task-list {
+    margin: 20px 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  .task-item span {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .task-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
+  
